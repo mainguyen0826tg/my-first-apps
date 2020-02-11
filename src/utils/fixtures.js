@@ -8,4 +8,5 @@ export const region = "label.owner.region"
 export const stage = "label.stage.name"
 export const department_DS = '/gdc/md/e3f1b3snasy2pd2cvgh9ubv29gcdrdte/obj/1026/elements?id=1226';
 export const insight_chart = 'aaij5LGugnS9';
+export const dashboard = 'aaclHyBMd73m';
 

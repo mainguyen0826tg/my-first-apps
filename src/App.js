@@ -6,15 +6,17 @@ import KPIExample from "./m_component/KPIExample";
 import PivotTableExample from "./m_component/PivotTableExample";
 import HeadlineExample from './m_component/HeadlineExample';
 import VisualizationExample from './m_component/VisualizationExample';
+import KVisualizationExample from './m_component/KVisualizationExample';
 import DateFilterComponentExample from './m_component/DateFilterComponentExample';
 import AFM_TreemapExample from './m_component/AFM_TreemapExample';
 import AfmBarChartExample from './m_component/AfmBarChartExample';
 import AfmTableExample from './m_component/AfmTableExample';
 import "@gooddata/react-components/styles/css/main.css";
+import { clearSdkCache } from '@gooddata/react-components/dist/helpers/sdkCache';
 const App = () => {
   return (
     <p>
-        <div>
+           <div>
           <h3>Date Filter </h3>
         <DateFilterComponentExample></DateFilterComponentExample>
       </div>
@@ -39,6 +41,10 @@ const App = () => {
         <VisualizationExample></VisualizationExample>
       </div>
       <div>
+        <h3>Dashboard - Visualization</h3>
+        <KVisualizationExample></KVisualizationExample>
+      </div>
+      <div>
         <h3>Afm Table</h3>
         <AfmTableExample></AfmTableExample>
       </div>
@@ -51,8 +57,8 @@ const App = () => {
         <AFM_TreemapExample></AFM_TreemapExample>
       </div>
     </p>
-    
+
   )
   }
-
+clearSdkCache();
 export default App;
