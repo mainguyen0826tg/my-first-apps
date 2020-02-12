@@ -11,11 +11,12 @@ import DateFilterComponentExample from './m_component/DateFilterComponentExample
 import AFM_TreemapExample from './m_component/AFM_TreemapExample';
 import AfmBarChartExample from './m_component/AfmBarChartExample';
 import AfmTableExample from './m_component/AfmTableExample';
+import AttributeFilterExample from './m_component/AttributeFilterExample';
 import "@gooddata/react-components/styles/css/main.css";
 import { clearSdkCache } from '@gooddata/react-components/dist/helpers/sdkCache';
 const App = () => {
   return (
-    <p>
+    <div>
            <div>
           <h3>Date Filter </h3>
         <DateFilterComponentExample></DateFilterComponentExample>
@@ -41,7 +42,7 @@ const App = () => {
         <VisualizationExample></VisualizationExample>
       </div>
       <div>
-        <h3>Dashboard - Visualization</h3>
+        <h3>KD is not supported: Render fails</h3>
         <KVisualizationExample></KVisualizationExample>
       </div>
       <div>
@@ -56,7 +57,11 @@ const App = () => {
         <h3>Afm Treemap</h3>
         <AFM_TreemapExample></AFM_TreemapExample>
       </div>
-    </p>
+      <div>
+        <h3>AttributeFilter</h3>
+        <AttributeFilterExample></AttributeFilterExample>
+      </div>
+    </div>
 
   )
   }

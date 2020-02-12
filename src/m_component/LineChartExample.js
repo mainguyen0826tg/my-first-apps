@@ -3,8 +3,6 @@ import { LineChart, Model } from "@gooddata/react-components";
 
 import "@gooddata/react-components/styles/css/main.css";
 
-//import { CUSTOM_COLOR_PALETTE } from "../utils/colors";
-
 const projectId='e3f1b3snasy2pd2cvgh9ubv29gcdrdte'
 const franchiseFeesIdentifier = 'aoJqpe5Ib4mO'
 const franchiseFeesAdRoyaltyIdentifier = 'ah1EuQxwaCqs'
