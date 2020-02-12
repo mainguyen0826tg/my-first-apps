@@ -26,7 +26,7 @@ export class AttributeFilterExample extends Component {
             <div >
                 <AttributeFilter
                     //filters={this.state.filter}
-                    filter={this.filter}
+                    filter={filter}
                     //identifier = {stage}
                     projectId={projectId}
                     onApply={this.onApply}
@@ -34,7 +34,7 @@ export class AttributeFilterExample extends Component {
                 />
                 <PieChart
                     //filter={[this.state.filter]}
-                    filter={this.filter}
+                    filter={filter}
                     //identifier = {stage}
                     projectId={projectId}
                     measures = {measures}
